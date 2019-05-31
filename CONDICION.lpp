@@ -2,7 +2,7 @@ entero edad
 
 INICIO
    
-   Escriba (" ¿Cual es su edad?")
+   Escriba (" Â¿Cual es su edad?")
    lea edad
    
    Si (edad>=18) entonces
@@ -10,6 +10,8 @@ INICIO
    sino
       escriba("usted es un menor")
       fin si
-      
+   si (edad>=100) entonces
+       escriba ("usted esta robando oxigeno")
+       fin si
       
 FIN 
